@@ -3,18 +3,18 @@ from discord_webhook import DiscordWebhook, DiscordEmbed
 import time
 
 #real webhooks assigned here
-webhook=DiscordWebhook(url='https://discord.com/api/webhooks/934685026518437948/QUCMCGL4MGStpOz9mcjGs77wWUknL1j2oFmImebXBru57a7HdbAmhMKC8coP02e0YB-f')
+webhook=DiscordWebhook(url='your webhook here')
 content="> Class Alert @everyone "
 webhook.content = content
 #embed object
 des="Join ASAP!" #description
 #class links
-mde='Meet Link: https://meet.google.com/pjr-hvsh-zmk'
-phy='https://meet.google.com/rwq-puyy-xps'
-che='https://meet.google.com/xui-huof-dow'
-beee='https://meet.google.com/duk-qbfk-fed'
-eng='https://meet.google.com/kpx-qdnr-mia'
-psp='https://meet.google.com/kfo-ymsr-qui'
+mde=''#replace here with your link
+phy=''
+che=''
+beee=''
+eng=''
+psp=''
 
 while True:
     #time and day are assigned here
@@ -23,8 +23,6 @@ while True:
     #print("Time in (hh:mm:ss) =",time,"\nday:",day) #printed for check
     if ctime == '09:25:00':                                                    #1st hr
         print("first class")
-        #add webhook
-        #embed object
         if cday=='Monday' or cday=='Wednesday':                                
             embed = DiscordEmbed(title=mde, description=des, color='33ff00')
             embed.set_author(name='Maths')
