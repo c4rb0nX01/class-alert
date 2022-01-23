@@ -8,8 +8,8 @@ content="> Class Alert @everyone "
 webhook.content = content
 #embed object
 des="Join ASAP!" #description
-#class links
-mde=''#replace here with your link
+#class links replace here with your link
+mde=''
 phy=''
 che=''
 beee=''
@@ -26,7 +26,7 @@ while True:
         if cday=='Monday' or cday=='Wednesday':                                
             embed = DiscordEmbed(title=mde, description=des, color='33ff00')
             embed.set_author(name='Maths')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here'')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -35,7 +35,7 @@ while True:
         elif cday=='Tuesday':                                                  
             embed = DiscordEmbed(title=psp, description=des, color='33ff00')
             embed.set_author(name='PSP')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here'')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -44,7 +44,7 @@ while True:
         elif cday=='Thursday':
             embed = DiscordEmbed(title=che, description=des, color='33ff00')
             embed.set_author(name='Chemistry')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -53,7 +53,7 @@ while True:
         elif cday=='Friday':
             embed = DiscordEmbed(title=phy, description=des, color='33ff00')
             embed.set_author(name='Physics')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -62,7 +62,7 @@ while True:
         elif cday == 'Saturday':
             embed = DiscordEmbed(title=beee, description=des, color='33ff00')
             embed.set_author(name='BEEE')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -76,7 +76,7 @@ while True:
         if cday=='Monday':                                                  
             embed = DiscordEmbed(title=eng, description=des, color='33ff00')
             embed.set_author(name='English')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -85,7 +85,7 @@ while True:
         elif cday=='Tuesday':                                                  
             embed = DiscordEmbed(title=psp, description=des, color='33ff00')
             embed.set_author(name='PSP')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -94,7 +94,7 @@ while True:
         elif cday=='Wednesday':                                                  
             embed = DiscordEmbed(title=phy, description=des, color='33ff00')
             embed.set_author(name='Physics')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -103,7 +103,7 @@ while True:
         elif cday=='Thursday':
             embed = DiscordEmbed(title=beee, description=des, color='33ff00')
             embed.set_author(name='BEEE')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -112,7 +112,7 @@ while True:
         elif cday=='Friday':
             embed = DiscordEmbed(title=mde, description=des, color='33ff00')
             embed.set_author(name='Maths')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -121,7 +121,7 @@ while True:
         elif cday == 'Saturday':
             embed = DiscordEmbed(title=che, description=des, color='33ff00')
             embed.set_author(name='Chemistry')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -136,7 +136,7 @@ while True:
         if cday=='Monday':                                                  
             embed = DiscordEmbed(title=che, description=des, color='33ff00')
             embed.set_author(name='Chemistry')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -145,7 +145,7 @@ while True:
         elif cday=='Tuesday':                                                  
             embed = DiscordEmbed(title=phy, description=des, color='33ff00')
             embed.set_author(name='Physics')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -154,7 +154,7 @@ while True:
         elif cday=='Wednesday':                                                  
             embed = DiscordEmbed(title=eng, description=des, color='33ff00')
             embed.set_author(name='English')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -163,7 +163,7 @@ while True:
         elif cday=='Thursday':
             embed = DiscordEmbed(title=eng, description=des, color='33ff00')
             embed.set_author(name='English')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -172,7 +172,7 @@ while True:
         elif cday=='Friday':
             embed = DiscordEmbed(title=psp, description=des, color='33ff00')
             embed.set_author(name='PSP')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -181,7 +181,7 @@ while True:
         elif cday == 'Saturday':
             embed = DiscordEmbed(title=phy, description=des, color='33ff00')
             embed.set_author(name='Physics')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -196,7 +196,7 @@ while True:
         if cday=='Monday':                                                  
             embed = DiscordEmbed(title=beee, description=des, color='33ff00')
             embed.set_author(name='BEEE')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
@@ -205,7 +205,7 @@ while True:
         elif cday=='Tuesday':                                                  
             embed = DiscordEmbed(title=mde, description=des, color='33ff00')
             embed.set_author(name='Maths')
-            embed.set_footer(text='A Bot by c4rb0n')
+            embed.set_footer(text='footer here')
             embed.set_timestamp()
             webhook.add_embed(embed)
             webhook.execute()
