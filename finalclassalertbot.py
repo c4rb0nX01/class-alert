@@ -4,17 +4,10 @@ import time
 
 #real webhooks assigned here
 webhook=DiscordWebhook(url='https://discord.com/api/webhooks/934685026518437948/QUCMCGL4MGStpOz9mcjGs77wWUknL1j2oFmImebXBru57a7HdbAmhMKC8coP02e0YB-f')
-
-#dummy webhook
-#webhook=DiscordWebhook(url='https://discord.com/api/webhooks/909466908745695332/-YnmJ0W52TKoQRzB6X6rzWEQc78xEJWMDI-1O51ji2I-0NIDnhuElADhcQdPl0Lzi1lm')
-
 content="> Class Alert @everyone "
 webhook.content = content
 #embed object
 des="Join ASAP!" #description
-daylist=['Sunday','Monday','Tuesday','Wednesday','Thurday','Friday','Saturday']
-#           0       1           2       3           4         5         6
-
 #class links
 mde='Meet Link: https://meet.google.com/pjr-hvsh-zmk'
 phy='https://meet.google.com/rwq-puyy-xps'
@@ -28,7 +21,7 @@ while True:
     ctime = datetime.datetime.now().strftime("%H:%M:%S")
     cday = datetime.datetime.today().strftime("%A")
     #print("Time in (hh:mm:ss) =",time,"\nday:",day) #printed for check
-    if ctime == '22:13:00':#09:25:00                                                    #1st hr
+    if ctime == '09:25:00':                                                    #1st hr
         print("first class")
         #add webhook
         #embed object
