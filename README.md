@@ -8,5 +8,5 @@ $chmod +x class-alert-bot.py
 $python3 class-alert-bot.py
 ```
 ### If running on vps use screen.
-> Screen -S <session-name>
+``` Screen -S <session-name> ```
 ![Sample Image](https://i.ibb.co/KKpf4BB/Screenshot-2022-01-24-104251.png)
